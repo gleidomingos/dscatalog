@@ -1,10 +1,10 @@
 package com.gbsolution.dscatalog.services.exeptions;
 
-public class ServiceNotFoundExeption extends RuntimeException{
+public class ResourceNotFoundExeption extends RuntimeException{
 
 	private static final long serialVersionUID = 1L;
 	
-	public ServiceNotFoundExeption(String message ){
+	public ResourceNotFoundExeption(String message ){
 		super(message);
 	}
 
